@@ -1,0 +1,55 @@
+AFN Transport Backend Plan
+
+PHASE 1 - Setup
+[ ] Project initialization
+[ ] Express setup
+[ ] dotenv configuration
+[ ] Folder structure
+[ ] MongoDB connection
+
+
+PHASE 2 - Car Management
+[ ] Car Model
+[ ] Create Car API
+[ ] Get All Cars API
+[ ] Get Single Car API
+[ ] Update Car API
+[ ] Delete Car API
+
+
+PHASE 3 - Authentication
+[ ] User Model
+[ ] Register API
+[ ] Login API
+[ ] Password hashing
+[ ] JWT authentication
+
+
+PHASE 4 - Authorization
+[ ] Admin role
+[ ] Customer role
+[ ] Protected routes
+
+
+PHASE 5 - Booking System
+[ ] Booking Model
+[ ] Create booking
+[ ] Check availability
+[ ] Cancel booking
+[ ] Booking history
+
+
+PHASE 6 - Extra Features
+[ ] Image upload
+[ ] Search
+[ ] Filter
+[ ] Pagination
+[ ] Reviews
+[ ] Statistics
+
+
+PHASE 7 - Production
+[ ] Error handling
+[ ] Validation
+[ ] API documentation
+[ ] Deploy

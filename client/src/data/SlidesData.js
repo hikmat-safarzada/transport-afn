@@ -1,0 +1,61 @@
+export const SLIDES = [
+  {
+    id: 1,
+    titleLine1: "EKONOM",
+    titleLine2: "KLASS",
+    subtitleBold: "Ekonom Klass",
+    subtitleText: "avtomobillərinin kirayəsi",
+    price: "60 AZN/Gün",
+    image: "/cars/elantra.png",
+    thumbImage: "/thumbs/elantra.jpeg",
+    category: "Ekonom",
+  },
+
+  {
+    id: 2,
+    titleLine1: "BİZNES",
+    titleLine2: "KLASS",
+    subtitleBold: "Biznes Klass",
+    subtitleText: "avtomobillərinin kirayəsi",
+    price: "120 AZN/Gün",
+    image: "/cars/ford.png",
+    thumbImage: "/thumbs/optima.jpeg",
+    category: "Biznes",
+  },
+
+  {
+    id: 3,
+    titleLine1: "CROSSOVER",
+    titleLine2: "& SUVs",
+    subtitleBold: "Crossover & SUVs",
+    subtitleText: "avtomobillərinin kirayəsi",
+    price: "100 AZN/Gün",
+    image: "/cars/tucson.png",
+    thumbImage: "/thumbs/kia-sorento.jpeg",
+    category: "Crossover&SUVs",
+  },
+
+  {
+    id: 4,
+    titleLine1: "PREMİUM",
+    titleLine2: "KLASS",
+    subtitleBold: "Premium Klass",
+    subtitleText: "avtomobillərinin kirayəsi",
+    price: "200 AZN/Gün",
+    image: "/cars/prado.png",
+    thumbImage: "/thumbs/fordf.jpeg",
+    category: "Premium",
+  },
+
+  {
+    id: 5,
+    titleLine1: "AVTOBUSLAR",
+    titleLine2: "XİDMƏTİ",
+    subtitleBold: "Avtobuslar xidmətləri",
+    subtitleText: "və transferlər üçün",
+    price: "150 AZN/Gün",
+    image: "/cars/bus.png",
+    thumbImage: "/thumbs/bus.jpeg",
+    category: "Avtobuslar",
+  },
+];

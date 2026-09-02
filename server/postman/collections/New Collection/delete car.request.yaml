@@ -1,0 +1,5 @@
+$kind: http-request
+name: delete car
+url: ""
+method: DELETE
+order: 3133239361137229

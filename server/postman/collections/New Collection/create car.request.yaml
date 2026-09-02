@@ -1,0 +1,41 @@
+$kind: http-request
+name: create car
+url: http://localhost:8080/api/cars
+method: POST
+headers:
+  Authorization: Bearer {{supabase_service_role_api_key_1cof}}
+body:
+  type: formdata
+  content:
+    - type: text
+      key: brand
+      value: Mercedes
+      description: ""
+      disabled: false
+    - type: text
+      key: model
+      value: GLC 63s
+      description: ""
+      disabled: false
+    - type: text
+      key: year
+      value: "2020"
+      description: ""
+      disabled: false
+    - type: text
+      key: pricePerDay
+      value: "390"
+      description: ""
+      disabled: false
+    - type: text
+      key: category
+      value: premium
+      description: ""
+      disabled: false
+    - type: file
+      key: images
+      src:
+        - /C:/Users/hikme/OneDrive/Desktop/glc63s.jpeg
+      description: ""
+      disabled: false
+order: 2378333177446072

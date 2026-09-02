@@ -1,0 +1,4 @@
+const RESET_PASSWORD_EXPIRE = 15 * 60 * 1000
+module.exports = {
+    RESET_PASSWORD_EXPIRE
+}

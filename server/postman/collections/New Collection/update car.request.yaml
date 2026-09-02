@@ -1,0 +1,5 @@
+$kind: http-request
+name: update car
+url: ""
+method: PUT
+order: 4466849262659473
