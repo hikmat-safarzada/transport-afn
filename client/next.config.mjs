@@ -19,7 +19,7 @@ const nextConfig = {
         source: "/api/:path*",
         destination: isDev
           ? "http://localhost:8080/api/:path*"
-          : "hhttps://afn-transport-6.onrender.com/api/:path*",
+          : "https://transport-afn.onrender.com/api/:path*",
       },
     ];
   },
