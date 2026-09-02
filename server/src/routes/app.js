@@ -9,7 +9,7 @@ const app = express();
 app.use(cookieParser())
 
 const allowedOrigins = [
-  'https://afn-transport-6mfr.vercel.app', 
+  'https://transport-afn-ue5z-2zvtorbly-hkmt123-its-projects.vercel.app', 
   'http://localhost:3000'                   
 ];
 
