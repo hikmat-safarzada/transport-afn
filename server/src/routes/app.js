@@ -19,10 +19,13 @@ app.use(cors({
     if (!origin) {
       return callback(null, true); 
     }
-    if (allowedOrigins.indexOf(origin) !== -1) {
+    const isAllowed = allowedOrigins.indexOf(origin) !== -1;
+    const isVercelPreview = origin.endsWith('.vercel.app');
+
+    if (isAllowed || isVercelPreview) {
       callback(null, true);
     } else {
-      callback(new Error('CORS Politikası: Bu origin için erişim izni yok.'));
+      callback(new Error('CORS Politics error'));
     }
   },
   credentials: true, 
