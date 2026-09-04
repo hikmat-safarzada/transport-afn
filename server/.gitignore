@@ -1,9 +1,9 @@
-# Heavy dependencies (Heç vaxt Git-ə yüklənməməlidir)
+# Heavy dependencies
 node_modules/
 jspm_packages/
 web_modules/
 
-# Secrets and environment variables (Şifrələr və API açarları)
+# Secrets and environment variables
 .env
 .env.local
 .env.development.local
@@ -11,20 +11,20 @@ web_modules/
 .env.production.local
 *.env
 
-# Build outputs (Layihəni render edərkən yaranan hazır qovluqlar)
+# Build outputs 
 dist/
 build/
 .next/
 .nuxt/
 out/
 
-# Logs (Xəta hesabatları)
+# Logs 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# System files (Əməliyyat sisteminin avtomatik yaratdığı fayllar)
+# System files 
 .DS_Store
 Thumbs.db
