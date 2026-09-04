@@ -10,7 +10,8 @@ app.use(cookieParser())
 
 const allowedOrigins = [
   'https://transport-afn-ue5z-2zvtorbly-hkmt123-its-projects.vercel.app', 
-  'http://localhost:3000'                   
+  'http://localhost:3000',
+  'https://transport-afn-3urc.vercel.app?_vercel_share=hEyb3Di3UgUphNZ9EYnpIvgHOIyiKhPw'                   
 ];
 
 app.use(cors({
